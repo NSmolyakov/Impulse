@@ -5,10 +5,16 @@ import './LogIn.css'
 function LogIn() {
   return (
    <div className='LogIn'>
-            <img src={logo} alt='Mount'className='Logo' />
-            <h1 className='presentText'>Mount</h1>
-            <button>Вход</button>
-            <p className='linkBtn'>Регистрация</p>
+            
+            <div className='Logo'>
+              <img src={logo} alt='Mount' className='startLogo' />
+              <h1 className='presentText'>Mount</h1>
+            </div>
+
+            <div className='Actions'>
+              <button>Вход</button>
+              <p className='linkBtn'>Регистрация</p>
+            </div>
 
    </div>
   );

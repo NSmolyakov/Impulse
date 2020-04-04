@@ -1,14 +1,31 @@
-.LogIn{
+.LogIn {
     display: grid;
     justify-content: center;
+    height: 100vh;
+}
+
+.LogIn .Logo {
+    align-self: flex-start;
+    justify-self: center;
+    margin-top: 180px;
+}
+
+.LogIn .Actions {
+    align-self: flex-end;
+    margin-bottom: 50px;
 }
 
 
-.LogIn .Logo{
-    margin-top: 215px;
-    justify-self: center;
+.LogIn .actions {
+    text-align: center;
+    margin-top: 36px;
 }
 
-.LogIn p{
-    justify-self: center;
+.LogIn .linkBtn {
+    text-align: center;
+    margin-top: 36px;
+}
+
+.startLogo {
+    padding-left: 22px;
 }
