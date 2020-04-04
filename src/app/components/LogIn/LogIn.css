@@ -1,0 +1,10 @@
+.LogIn{
+    display: grid;
+    justify-content: center;
+}
+
+
+.LogIn .Logo{
+    margin-top: 215px;
+    justify-self: center;
+}
