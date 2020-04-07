@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../assets/img/logo.svg';
 import './LogIn.css'
+import {NavLink} from 'react-router-dom'
 
 function LogIn() {
   return (
@@ -13,7 +14,7 @@ function LogIn() {
 
             <div className='Actions'>
               <button>Вход</button>
-              <p className='linkBtn'>Регистрация</p>
+              <NavLink to="/registration"><p className='linkBtn'>Регистрация</p></NavLink>
             </div>
 
    </div>

@@ -31,6 +31,35 @@ button {
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+}
+
+label{
+  font-family: 'Exo 2';
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #BBBBBB;
+}
+
+input{
+  background: #292D39;
+
+  border: 1px solid #BBBBBB;
+  box-sizing: border-box;
+  border-radius: 12px;
+
+  min-width: 320px;
+  min-height: 40px;
+}
+
+input[type="text"]::placeholder,
+input[type="password"]::placeholder{
+  padding: 8px;
+}
+
 .presentText {
   font-family: 'Exo 2';
   font-style: normal;
