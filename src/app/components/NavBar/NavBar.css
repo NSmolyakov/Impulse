@@ -1,13 +1,19 @@
-.NavBar{
+.NavBar {
     width: 100vw;
     background: #292D39;
     display: grid;
     justify-items: center;
     position: fixed;
-    left: 0; 
+    left: 0;
     bottom: 0;
+    z-index: 1;
 }
 
-.NavBarElements{
+.NavBarElements {
     display: inline;
+}
+
+.NavBarElements img {
+    margin-left: 36px;
+    margin-right: 36px;
 }

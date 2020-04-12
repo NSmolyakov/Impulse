@@ -1,10 +1,11 @@
 .TopBar{
     width: 100vw;
-    height: 100px;
+    height: 54px;
     background: #292D39;
     text-align: center;
     position: fixed;
     left: 0; 
     top: 0;
+    z-index: 1;
 }
 

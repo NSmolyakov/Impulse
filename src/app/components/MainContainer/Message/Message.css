@@ -1,3 +1,30 @@
 .Message{
+    width:382px;
     height: 64px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.UserPhoto{
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.UserName{
+    position: absolute;
+    top:0;
+    left:80px;
+}
+
+.Discription{
+    position: absolute;
+    top:28px;
+    left:80px;
+}
+
+.Time{
+    position: absolute;
+    top:0;
+    right:12px;
 }

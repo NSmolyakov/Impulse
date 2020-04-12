@@ -6,9 +6,9 @@ function Message() {
   return (
    <div className='Message'>
          <img alt='UserPhoto' src={userPhoto} />
-         <h2>Александра Шмидт</h2>
-         <p>Давай лучше завтра расскажу. Уже поздно</p>
-         <p>14:40</p>
+         <h2 className='UserName'>Александра Шмидт</h2>
+         <p className='Discription'>Давай лучше завтра расскажу. Уже поздно</p>
+         <p className='Time'>14:40</p>
 
    </div>
   );
