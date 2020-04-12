@@ -13,6 +13,23 @@ h1 {
   color: #FFFFFF;
 }
 
+h2 {
+  font-family: 'Exo 2';
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #FFFFFF;
+}
+
+p{
+  font-family: 'Roboto';
+  font-size: 13px;
+  line-height: 15px;
+
+  color: #BBBBBB;
+}
+
 button {
   min-width: 300px;
   min-height: 52px;
