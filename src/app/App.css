@@ -16,6 +16,15 @@ h1 {
 h2 {
   font-family: 'Exo 2';
   font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #BBBBBB;
+}
+
+h3 {
+  font-family: 'Exo 2';
+  font-weight: bold;
   font-size: 17px;
   line-height: 20px;
 
@@ -96,4 +105,12 @@ input[type="password"]::placeholder{
   color: #FFFFFF;
 
   cursor: pointer;
+}
+
+.itemBtn{
+  display: flex;
+}
+
+.itemBtn img {
+  margin-right: 20px;
 }

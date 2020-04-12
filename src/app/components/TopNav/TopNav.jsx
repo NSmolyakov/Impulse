@@ -1,12 +1,11 @@
 import React from 'react';
 import './TopNav.css'
 
-function TopBar() {
+function TopBar(props) {
   return (
-   <div className='TopBar'>
-            <h1> Сообщения </h1>
-
-   </div>
+    <div className='TopBar'>
+      <h1> {props.header} </h1>
+    </div>
   );
 }
 

@@ -11,7 +11,7 @@ function NavBar() {
         <div className='NavBar'>
             <div className='NavBarElements'>
                 <Link to='messages'><img src={Messages} alt='Messages' /></Link>
-                <Link to='users'><img src={Users} alt='Users' /></Link>
+                <Link to='contacts'><img src={Users} alt='Users' /></Link>
                 <Link to='settings'><img src={Settings} alt='Settings' /></Link>
             </div>
         </div>
