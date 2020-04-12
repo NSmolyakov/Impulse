@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from '../../assets/img/logo.svg';
 import './Registration.css'
+import { Link } from 'react-router-dom';
 
 function Registration() {
   return (
@@ -18,7 +19,7 @@ function Registration() {
             </form>
 
             <div className='Actions'>
-              <button>Зарегистрироваться</button>
+              <Link to='/messages'><button>Зарегистрироваться</button></Link>
             </div>
 
    </div>

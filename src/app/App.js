@@ -7,31 +7,25 @@ import MainContainer from './components/MainContainer/MainContainer'
 
 function App() {
   return (
-    <div className="App">
-      <BrowserRouter>
-        <Switch>
+    <BrowserRouter>
+      <div className="App">
 
-        <Route path="/registration">
-            <Registration />
-        </Route>
+          <Switch>
+          <Route exact path="/registration">
+              <Registration />
+          </Route>
 
-        <Route path="/messages">
-            <MainContainer />
-        </Route>
+          <Route exact path="/">
+              <LogIn />
+          </Route>
 
-        <Route path="/">
-            <LogIn />
-        </Route>
+          <Route path="*">
+              <MainContainer />
+          </Route>
 
-    
-
-          
-
-        </Switch>
-
-      </BrowserRouter>
-       
-    </div>
+          </Switch>    
+      </div>
+    </BrowserRouter>
   );
 }
 
