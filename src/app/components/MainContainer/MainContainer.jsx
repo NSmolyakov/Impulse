@@ -5,6 +5,7 @@ import NavBar from '../NavBar/NavBar'
 import './MainContainer.css'
 import { Switch, Route } from 'react-router-dom';
 import Contacts from './Contacts/Contacts';
+import Settings from './Settings/Settings'
 
 function MainContainer() {
   return (
@@ -23,6 +24,7 @@ function MainContainer() {
 
         <Route exact path="/settings">
           <TopNav header='Настройки' />
+          <Settings />
         </Route>
 
       </Switch>
