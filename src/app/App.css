@@ -27,7 +27,7 @@ h3 {
   color: #FFFFFF;
 }
 
-p{
+p {
   font-family: 'Roboto';
   font-size: 13px;
   line-height: 15px;
@@ -57,7 +57,7 @@ a {
   text-decoration: none;
 }
 
-label{
+label {
   font-family: 'Exo 2';
   font-weight: bold;
   font-size: 18px;
@@ -66,8 +66,9 @@ label{
   color: #BBBBBB;
 }
 
-input{
+input {
   background: #292D39;
+  color: #FFFFFF;
 
   border: 1px solid #BBBBBB;
   box-sizing: border-box;
@@ -75,10 +76,16 @@ input{
 
   min-width: 320px;
   min-height: 40px;
+
 }
 
 input[type="text"]::placeholder,
-input[type="password"]::placeholder{
+input[type="password"]::placeholder {
+  padding: 8px;
+}
+
+input[type="text"],
+input[type="password"] {
   padding: 8px;
 }
 
@@ -103,7 +110,7 @@ input[type="password"]::placeholder{
   cursor: pointer;
 }
 
-.itemBtn{
+.itemBtn {
   display: flex;
 }
 
