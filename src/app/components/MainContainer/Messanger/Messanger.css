@@ -1,0 +1,23 @@
+.Messanger {
+    display: flex;
+    height: 90vh;
+    align-items: flex-end;
+}
+
+.MessangerWrapper {
+    margin-bottom: 52px;
+}
+
+.sendMessage {
+    display: flex;
+}
+
+.sendMessage img {
+    padding-left: 8px;
+}
+
+.EmptyMessanger {
+    justify-items: center;
+    display: grid;
+    margin-bottom: 36vh;
+}
