@@ -1,1 +1,38 @@
+.Message {
+    background: #292D39;
+    border-radius: 12px;
+    max-width: 295px;
+}
 
+.Message .Content {
+    padding: 8px;
+}
+
+.Message .Text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.Message .Time {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 9px;
+    line-height: 11px;
+
+    text-align: right;
+    display: inline-block;
+
+    color: #BBBBBB;
+    margin-left: 8px;
+}
+
+.Message .Sent {
+    margin-left: 8px;
+}
