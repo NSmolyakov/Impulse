@@ -6,7 +6,7 @@ import './MainContainer.css'
 import { Switch, Route } from 'react-router-dom';
 import Contacts from './Contacts/Contacts';
 import Settings from './Settings/Settings'
-import Messanger from './Messanger/Messanger'
+import Messager from './Messager/Messager'
 
 function MainContainer() {
   return (
@@ -28,9 +28,9 @@ function MainContainer() {
           <Settings />
         </Route>
 
-        <Route exact path="/messanger">
+        <Route exact path="/messager">
           <TopNav header='Александра Шмидт' />
-          <Messanger />
+          <Messager />
         </Route>
 
       </Switch>

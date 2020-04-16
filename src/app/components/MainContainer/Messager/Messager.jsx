@@ -2,25 +2,31 @@ import React from 'react'
 import EasyLogo from '../../../assets/img/easyLogo.svg'
 import Send from '../../../assets/img/send.svg'
 import Message from './Message/Message'
-import './Messanger.css'
+import MessageIn from './Message/MessageIn'
+import './Messager.css'
 
 
 
-function Messanger() {
+function Messager() {
 
-    let emptyCheker = true;
+    let emptyCheker = false;
 
     return (
-        <div className='Messanger'>
-            <div className="MessangerWrapper">
+        <div className='Messager'>
+            <div className="MessagerWrapper">
 
-                { emptyCheker   ?   <div className='EmptyMessanger'>
+                { emptyCheker   ?   <div className='EmptyMessager'>
                                         <img src={EasyLogo} alt='no message' />
                                         <p>Пока нет сообщений.<br />
                                         Напишите что-нибудь</p>
                                     </div>
 
-                                : <Message />
+                                : <div className='Messages'>
+                                        <Message text='Привет' />
+                                        <MessageIn text='И тебе привет' />
+                                        <Message text='Есть к тебе серьёзный разговор' />
+                                        <MessageIn text='О чём?'/>
+                                    </div>
                 }
 
                 <div className='sendMessage'>
@@ -35,4 +41,4 @@ function Messanger() {
     )
 }
 
-export default Messanger;
+export default Messager;

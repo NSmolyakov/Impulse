@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 function Dialog() {
   return (
-    <Link to='messanger'>
+    <Link to='messager'>
          <div className='Dialog'>
          <img alt='UserPhoto' src={userPhoto} />
          <h3 className='UserName'>Александра Шмидт</h3>

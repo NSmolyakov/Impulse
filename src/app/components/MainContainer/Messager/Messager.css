@@ -1,10 +1,10 @@
-.Messanger {
+.Messager {
     display: flex;
     height: 90vh;
     align-items: flex-end;
 }
 
-.MessangerWrapper {
+.MessagerWrapper {
     margin-bottom: 52px;
 }
 
@@ -16,7 +16,7 @@
     padding-left: 8px;
 }
 
-.EmptyMessanger {
+.EmptyMessager {
     justify-items: center;
     display: grid;
     margin-bottom: 36vh;

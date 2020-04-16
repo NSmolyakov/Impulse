@@ -2,6 +2,11 @@
     background: #292D39;
     border-radius: 12px;
     max-width: 295px;
+    margin-bottom: 12px;
+    animation: blockStart 1 .75s;
+}
+.MessageIn{
+    margin-left: 64px;
 }
 
 .Message .Content {
@@ -36,3 +41,18 @@
 .Message .Sent {
     margin-left: 8px;
 }
+
+
+
+
+
+/*Message animation */
+@keyframes blockStart {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    } to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
