@@ -20,6 +20,7 @@ function Registration() {
 
             <div className='Actions'>
               <Link to='/messages'><button>Зарегистрироваться</button></Link>
+              <Link to="/"><p className='linkBtn'>Вход</p></Link>
             </div>
 
    </div>
