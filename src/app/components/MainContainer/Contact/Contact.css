@@ -1,0 +1,13 @@
+.Contact p {
+    max-width: 106px;
+    text-align: center;
+}
+
+.Contact img {
+    justify-self: center;
+}
+
+.Contact {
+    display: grid;
+    padding-bottom: 24px;
+}

@@ -5,7 +5,8 @@ import LogIn from './components/LogIn/LogIn';
 import Registration from './components/Registration/Registration'
 import MainContainer from './components/MainContainer/MainContainer'
 
-function App() {
+function App(props) {
+
   return (
     <BrowserRouter>
       <div className="App">
@@ -20,7 +21,7 @@ function App() {
           </Route>
 
           <Route path="*">
-              <MainContainer />
+              <MainContainer UsersData={props.state.UsersData} />
           </Route>
 
           </Switch>    

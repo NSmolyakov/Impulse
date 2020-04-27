@@ -4,23 +4,41 @@ import Dialog from './Dialog/Dialog'
 import NavBar from '../NavBar/NavBar'
 import './MainContainer.css'
 import { Switch, Route, Redirect } from 'react-router-dom';
-import Contacts from './Contacts/Contacts';
+import Contact from './Contact/Contact';
 import Settings from './Settings/Settings'
 import Messager from './Messager/Messager'
 
-function MainContainer() {
+import addContacts from '../../assets/img/addContacts.svg'
+
+
+function MainContainer(props) {
+  debugger;
+
+  let Dialogs = props.UsersData.Users.map(d => <Dialog name={d.name} id={d.id} lastMessage={d.lastMessage} />);
+  let Contacts = props.UsersData.Users.map(d => <Contact name={d.name} id={d.id} />);
+
+
   return (
     <div className='MainContainer'>
 
       <Switch>
         <Route path='/messages'>
           <TopNav header='Сообщения' />
-          <Dialog /> <Dialog /> <Dialog /> <Dialog /> <Dialog /> <Dialog /> <Dialog /> <Dialog /> <Dialog />
+          {Dialogs}
         </Route>
 
         <Route exact path="/contacts">
           <TopNav header='Контакты' />
-          <Contacts />
+          <div className='Contact'>
+
+            <div className='itemBtn'>
+              <img src={addContacts} alt='addContacts' />
+              <h2>Импортировать контакты</h2>
+            </div>
+            <div className='contactWrapper'>
+              {Contacts}
+            </div>
+          </div>
         </Route>
 
         <Route exact path="/settings">
