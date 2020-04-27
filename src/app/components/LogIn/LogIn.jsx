@@ -11,6 +11,10 @@ function LogIn() {
         <img src={logo} alt='Mount' className='startLogo' />
         <h1 className='presentText'>Mount</h1>
       </div>
+      <div className='LoginData'>
+          <label><h2>Логин</h2><input type="text" placeholder="Введите логин"></input></label> 
+          <label><h2>Пароль</h2><input type="password" placeholder="Введите пароль"></input></label>  
+      </div>
 
       <div className='Actions'>
        <NavLink to='/messages'> <button>Вход</button> </NavLink>

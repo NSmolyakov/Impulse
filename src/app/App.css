@@ -18,6 +18,10 @@ h2 {
   color: #BBBBBB;
 }
 
+label h2 {
+  line-height: 8px;
+}
+
 h3 {
   font-family: 'Exo 2';
   font-weight: bold;

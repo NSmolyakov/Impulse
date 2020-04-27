@@ -12,10 +12,10 @@ function Registration() {
               <h1 className='presentText'>Регистрация</h1>
             </div>
             <form>
-            <label>Имя<input type="text" placeholder="Ваше Имя"></input></label>
-            <label>Логин<input type="text" placeholder="Придумайте логин"></input></label> 
-            <label>Пароль<input type="password" placeholder="Придумайте пароль"></input></label>      
-            <label>Повторите пароль<input type="password" placeholder="Повторите пароль"></input></label>      
+            <label><h2>Имя</h2><input type="text" placeholder="Ваше Имя"></input></label>
+            <label><h2>Логин</h2><input type="text" placeholder="Придумайте логин"></input></label> 
+            <label><h2>Пароль</h2><input type="password" placeholder="Придумайте пароль"></input></label>      
+            <label><h2>Повторите пароль</h2><input type="password" placeholder="Повторите пароль"></input></label>      
             </form>
 
             <div className='Actions'>
