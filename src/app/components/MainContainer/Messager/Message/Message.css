@@ -1,12 +1,13 @@
 .Message {
     background: #292D39;
-    border-radius: 12px;
+    border-radius: 14px 14px 14px 0;
     max-width: 295px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     animation: blockStart 1 .75s;
 }
 .MessageIn{
     margin-left: 64px;
+    border-radius: 14px 14px 0 14px;
 }
 
 .Message .Content {

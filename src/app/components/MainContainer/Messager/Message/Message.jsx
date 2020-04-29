@@ -3,10 +3,11 @@ import './Message.css'
 import Sent from '../../../../assets/img/sent.svg'
 
 function Message (props) {
+    debugger;
     return(
         <div className='Message'>
             <div className="Content">
-                <p className='Text'>{props.text}</p>
+                <p className='Text'>{props.message}</p>
                 <p className='Time'>23:35</p>
                 <img className='Sent'src={Sent} alt='D'/>
             </div>

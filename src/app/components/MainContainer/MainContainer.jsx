@@ -12,7 +12,7 @@ import addContacts from '../../assets/img/addContacts.svg'
 
 
 function MainContainer(props) {
-  debugger;
+
 
   let Dialogs = props.UsersData.Users.map(d => <Dialog name={d.name} id={d.id} lastMessage={d.lastMessage} />);
   let Contacts = props.UsersData.Users.map(d => <Contact name={d.name} id={d.id} />);
@@ -47,8 +47,8 @@ function MainContainer(props) {
         </Route>
 
         <Route exact path="/messager">
-          <TopNav header='Александра Шмидт' />
-          <Messager />
+          <TopNav header='Анастасия Соколова' />
+          <Messager props={props}/>
         </Route>
 
         <Redirect to='/' />

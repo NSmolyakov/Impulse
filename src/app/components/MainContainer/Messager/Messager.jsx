@@ -6,8 +6,9 @@ import MessageIn from './Message/MessageIn'
 import './Messager.css'
 
 
-
-function Messager() {
+function Messager(props) {
+ 
+    let Messages = props.props.MessagesData.Messages.map(d => <Message message={d.message} />)
 
     let emptyCheker = false;
 
@@ -22,10 +23,8 @@ function Messager() {
                                     </div>
 
                                 : <div className='Messages'>
-                                        <Message text='Привет' />
-                                        <MessageIn text='И тебе привет' />
-                                        <Message text='Есть к тебе серьёзный разговор' />
-                                        <MessageIn text='О чём?'/>
+                                        {Messages}
+                                        <MessageIn />
                                     </div>
                 }
 
