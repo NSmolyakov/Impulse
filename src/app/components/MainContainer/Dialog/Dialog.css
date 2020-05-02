@@ -15,11 +15,12 @@
     position: absolute;
     top: 0;
     left: 80px;
+    line-height: 0px;
 }
 
 .Dialog .Discription {
     position: absolute;
-    top: 28px;
+    top: 20px;
     left: 80px;
 }
 

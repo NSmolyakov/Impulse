@@ -13,8 +13,8 @@ function Messager(props) {
     let emptyCheker = false;
 
     return (
-        <div className='Messager'>
-            <div className="MessagerWrapper">
+        <div className='MessagerWrapper'>
+            <div className="Messager">
 
                 { emptyCheker   ?   <div className='EmptyMessager'>
                                         <img src={EasyLogo} alt='no message' />

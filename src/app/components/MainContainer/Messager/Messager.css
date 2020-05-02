@@ -1,15 +1,16 @@
-.Messager {
+.MessagerWrapper {
     display: flex;
-    height: 90vh;
     align-items: flex-end;
+    height: 90vh;
 }
 
-.MessagerWrapper {
+.Messager {
     margin-bottom: 52px;
 }
 
 .sendMessage {
     display: flex;
+    margin-top: 4px;
 }
 
 .sendMessage img {
