@@ -8,7 +8,7 @@ import './Messager.css'
 
 function Messager(props) {
  
-    let Messages = props.props.MessagesData.Messages.map(d => <Message message={d.message} />)
+    let Messages = props.props.MessagesData.Messages.map(d => <Message message={d.message} time={d.time} dilivered={d.dilivered} />)
 
     let emptyCheker = false;
 
