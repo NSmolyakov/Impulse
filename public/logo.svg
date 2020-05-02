@@ -5,9 +5,9 @@
 <path d="M83.9999 78L58.8344 40.728L49.1448 55.0716L64.6275 78H83.9999Z" fill="#DDDDDD"/>
 <path d="M62.3309 78L48.0068 56.7752L33.6689 78H48.0068H62.3309Z" fill="url(#paint0_linear)"/>
 <defs>
-<linearGradient id="paint0_linear" x1="62.3309" y1="78" x2="32.8563" y2="76.8041" gradientUnits="userSpaceOnUse">
-<stop stop-color="#7F00FF"/>
-<stop offset="1" stop-color="#E100FF"/>
+<linearGradient id="paint0_linear" x1="47.9999" y1="78" x2="37.6889" y2="64.8764" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0066FF"/>
+<stop offset="1" stop-color="#31B5FF"/>
 </linearGradient>
 </defs>
 </svg>
