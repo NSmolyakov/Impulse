@@ -27,5 +27,7 @@
   "display": "standalone",
   "theme_color": "#292D39",
   "background_color": "#313649",
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "version": "0.0.1",
+  "version_name": "0.0.1 Alpha"
 }
