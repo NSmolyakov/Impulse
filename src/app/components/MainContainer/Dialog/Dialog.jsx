@@ -10,7 +10,7 @@ function Dialog(props) {
          <img alt='UserPhoto' src={noPhoto} />
          <h3 className='UserName'>{props.name} </h3>
          <p className='Discription'>{props.lastMessage}</p>
-         <p className='Time'>14:40</p>
+         <p className='Time'>{props.time}</p>
       </div>
     </Link>
 

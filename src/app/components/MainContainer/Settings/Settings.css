@@ -1,5 +1,5 @@
-.Account{
-    width:320px;
+.Account {
+    width: 320px;
     height: 64px;
     position: relative;
     margin-bottom: 16px;
@@ -7,21 +7,22 @@
 
 .Account .UserPhoto {
     position: absolute;
-    top:0;
-    left:0;
+    top: 0;
+    left: 0;
 }
 
-.Account .UserName{
+.Account .UserName {
     position: absolute;
-    top:0;
-    left:80px;
+    top: 0;
+    left: 80px;
+    line-height: 0px;
 }
 
-.Account .Discription{
+.Account .Discription {
     position: absolute;
-    top:28px;
-    left:80px;
-    opacity: .5;
+    top: 20px;
+    left: 80px;
+
     font-size: 14px;
     line-height: 16px;
 
