@@ -70,7 +70,8 @@ label {
   color: #BBBBBB;
 }
 
-input {
+input,
+textarea {
   background: #292D39;
   color: #FFFFFF;
 
@@ -81,15 +82,21 @@ input {
   min-width: 320px;
   min-height: 40px;
 
+  font-family: 'Roboto';
+}
+
+textarea {
+  resize: none;
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+  padding: 8px;
 }
 
 input[type="text"]::placeholder,
 input[type="password"]::placeholder {
-  padding: 8px;
-}
-
-input[type="text"],
-input[type="password"] {
   padding: 8px;
 }
 

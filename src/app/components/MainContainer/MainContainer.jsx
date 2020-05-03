@@ -48,7 +48,7 @@ function MainContainer(props) {
 
         <Route exact path="/messager">
           <TopNav header='Анастасия Соколова' />
-          <Messager props={props}/>
+          <Messager props={props} dispatch={props.dispatch}/>
         </Route>
 
         <Redirect to='/' />

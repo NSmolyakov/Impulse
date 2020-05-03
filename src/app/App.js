@@ -21,7 +21,7 @@ function App(props) {
           </Route>
 
           <Route path="*">
-              <MainContainer UsersData={props.state.UsersData} MessagesData={props.state.MessagesData} />
+              <MainContainer UsersData={props.state.UsersData} MessagesData={props.state.MessagesData} dispatch={props.dispatch}/>
           </Route>
 
           </Switch>    
