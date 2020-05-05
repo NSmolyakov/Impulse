@@ -13,7 +13,6 @@ import addContacts from '../../assets/img/addContacts.svg'
 
 function MainContainer(props) {
 
-
   let Dialogs = props.UsersData.Users.map(d => <Dialog name={d.name} id={d.id} lastMessage={d.lastMessage} time={d.time} />);
   let Contacts = props.UsersData.Users.map(d => <Contact name={d.name} id={d.id} />);
 
@@ -43,7 +42,7 @@ function MainContainer(props) {
 
         <Route exact path="/settings">
           <TopNav header='Настройки' />
-          <Settings />
+          <Settings props={props.AccountsData} />
         </Route>
 
         <Route exact path="/messager">

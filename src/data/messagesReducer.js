@@ -9,7 +9,7 @@ let initialState = {
         {id:4, message:'Ты серьёзно?', time:'23:40',  dilivered:false},
         {id:5, message:'Возможно... ты прав',time:'23:42',  dilivered:false},
     ],
-    newMessageBody:' ',
+    newMessageBody:'',
 }
 
 

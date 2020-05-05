@@ -6,7 +6,6 @@ import Registration from './components/Registration/Registration'
 import MainContainer from './components/MainContainer/MainContainer'
 
 function App(props) {
-
   return (
     <BrowserRouter>
       <div className="App">
@@ -21,7 +20,10 @@ function App(props) {
           </Route>
 
           <Route path="*">
-              <MainContainer UsersData={props.state.UsersData} MessagesData={props.state.MessagesData} dispatch={props.dispatch}/>
+              <MainContainer UsersData={props.state.UsersData} 
+                             MessagesData={props.state.MessagesData}
+                             AccountsData={props.state.AccountsData} 
+                             dispatch={props.dispatch}/>
           </Route>
 
           </Switch>    
