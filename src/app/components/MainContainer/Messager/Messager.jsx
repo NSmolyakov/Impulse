@@ -8,6 +8,7 @@ import './Messager.css'
 
 function Messager(props) {
 
+
     let Messages = props.props.MessagesData.Messages.map(d => <Message message={d.message} time={d.time} dilivered={d.dilivered} />)
     let newMessageBody = props.props.MessagesData.newMessageBody;
 

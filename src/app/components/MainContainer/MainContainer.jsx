@@ -55,7 +55,7 @@ function MainContainer(props) {
 
       </Switch>
 
-      <NavBar navBarData={props.navBarData}  />
+      <NavBar navBarData={props.navBarData} dispatch={props.dispatch} />
     </div>
   );
 }
