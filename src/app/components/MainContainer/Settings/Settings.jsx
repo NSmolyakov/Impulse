@@ -7,9 +7,6 @@ import noPhoto from '../../../assets/img/noPhoto.png'
 import { Link } from 'react-router-dom'
 
 function Settings(props) {
-
-    debugger;
-
     return (
         <div className='Settings'>
             <div className='Account'>

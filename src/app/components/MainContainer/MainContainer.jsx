@@ -13,6 +13,7 @@ import addContacts from '../../assets/img/addContacts.svg'
 
 function MainContainer(props) {
 
+
   let Dialogs = props.UsersData.Users.map(d => <Dialog name={d.name} id={d.id} lastMessage={d.lastMessage} time={d.time} />);
   let Contacts = props.UsersData.Users.map(d => <Contact name={d.name} id={d.id} />);
 
@@ -54,7 +55,7 @@ function MainContainer(props) {
 
       </Switch>
 
-      <NavBar />
+      <NavBar navBarData={props.navBarData}  />
     </div>
   );
 }

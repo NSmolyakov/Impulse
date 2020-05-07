@@ -1,15 +1,15 @@
-.MainContainer{
+.MainContainer {
     display: grid;
     justify-items: center;
     margin-top: 70px;
 }
 
-.contactWrapper{
+.contactWrapper {
     margin-top: 40px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.itemBtn{
-    margin-top: 10px;
+.itemBtn {
+    margin-top: 24px;
 }

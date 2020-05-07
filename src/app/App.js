@@ -6,6 +6,7 @@ import Registration from './components/Registration/Registration'
 import MainContainer from './components/MainContainer/MainContainer'
 
 function App(props) {
+
   return (
     <BrowserRouter>
       <div className="App">
@@ -22,7 +23,8 @@ function App(props) {
           <Route path="*">
               <MainContainer UsersData={props.state.UsersData} 
                              MessagesData={props.state.MessagesData}
-                             AccountsData={props.state.AccountsData} 
+                             AccountsData={props.state.AccountsData}
+                             navBarData={props.state.navBarData} 
                              dispatch={props.dispatch}/>
           </Route>
 
