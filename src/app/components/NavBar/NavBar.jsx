@@ -12,8 +12,7 @@ import {navBarCreator } from '../../../data/navBarReducer'
 
 import './NavBar.css'
 
-function NavBar(props) {
-
+const NavBar = (props) => {
     let currentLink = String(window.location.href);
     
     let navBarClick = () => {

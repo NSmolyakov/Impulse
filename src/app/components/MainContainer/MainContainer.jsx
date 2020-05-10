@@ -1,23 +1,22 @@
 import React from 'react';
+import { Switch, Route, Redirect } from 'react-router-dom';
+
 import TopNav from '../TopNav/TopNav'
 import Dialog from './Dialog/Dialog'
 import NavBar from '../NavBar/NavBar'
-import './MainContainer.css'
-import { Switch, Route, Redirect } from 'react-router-dom';
 import Contact from './Contact/Contact';
 import Settings from './Settings/Settings'
 import Messager from './Messager/Messager'
 
 import addContacts from '../../assets/img/addContacts.svg'
+import './MainContainer.css'
 
 
-function MainContainer(props) {
-
-
+const MainContainer = (props) => {
   let Dialogs = props.UsersData.Users.map(d => <Dialog name={d.name} id={d.id} lastMessage={d.lastMessage} time={d.time} />);
   let Contacts = props.UsersData.Users.map(d => <Contact name={d.name} id={d.id} />);
 
-
+  
   return (
     <div className='MainContainer'>
 

@@ -5,9 +5,8 @@ import LogIn from './components/LogIn/LogIn';
 import Registration from './components/Registration/Registration'
 import MainContainer from './components/MainContainer/MainContainer'
 
-function App(props) {
-
-  return (
+const App = (props) => {
+return (
     <BrowserRouter>
       <div className="App">
 

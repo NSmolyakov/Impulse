@@ -6,9 +6,7 @@ import {updateNewMessageBodyCreator, sendMessageCreator} from '../../../../data/
 import './Messager.css'
 
 
-function Messager(props) {
-
-
+const Messager =(props) => {
     let Messages = props.props.MessagesData.Messages.map(d => <Message message={d.message} time={d.time} dilivered={d.dilivered} />)
     let newMessageBody = props.props.MessagesData.newMessageBody;
 

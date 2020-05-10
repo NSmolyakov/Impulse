@@ -15,14 +15,7 @@
     margin-bottom: 50px;
 }
 
-
-.Registration .actions {
-    text-align: center;
-    margin-top: 36px;
-}
-
-
-.Registration button{
+.Registration button {
     margin-left: 10px;
 }
 
@@ -36,10 +29,10 @@
 }
 
 .Registration label,
-.Registration input{
+.Registration input {
     display: block;
 }
 
-.Registration label{
+.Registration label {
     margin-bottom: 24px;
 }

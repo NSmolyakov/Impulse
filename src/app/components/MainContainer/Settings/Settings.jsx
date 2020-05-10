@@ -1,12 +1,14 @@
 import React from 'react'
-import './Settings.css'
+import { Link } from 'react-router-dom'
+
 import Edit from '../../../assets/img/edit.svg'
 import ChangePassword from '../../../assets/img/changePassword.svg'
 import Exit from '../../../assets/img/exit.svg'
 import noPhoto from '../../../assets/img/noPhoto.png'
-import { Link } from 'react-router-dom'
+import './Settings.css'
 
-function Settings(props) {
+
+const Settings = (props) => {
     return (
         <div className='Settings'>
             <div className='Account'>
