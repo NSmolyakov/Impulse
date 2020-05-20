@@ -24,6 +24,15 @@ const Messager =(props) => {
         props.props.dispatch(sendMessageCreator());
     }
 
+    // Отправка по нажатию Enter
+    document.onkeyup = function (n) {
+        n = n || window.event;
+        if (n.keyCode === 13) {
+            sendMessageClick();
+        }
+        return false;
+    }
+
     return (
         <div className='MessagerWrapper'>
             <div className="Messager">
