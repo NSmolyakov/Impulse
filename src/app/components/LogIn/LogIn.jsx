@@ -12,8 +12,8 @@ const LogIn = () => {
         <h1 className='presentText'>Mount</h1>
       </div>
       <div className='LoginData'>
-        <label><h2>Логин</h2><input type="text" placeholder="Введите логин"></input></label>
-        <label><h2>Пароль</h2><input type="password" placeholder="Введите пароль"></input></label>
+        <label><h2>Логин</h2><input type="text" placeholder="Введите логин" name="login" pattern="^[a-zA-Z]+$"></input></label>
+        <label><h2>Пароль</h2><input type="password" placeholder="Введите пароль" name="password" ></input></label>
       </div>
 
       <div className='Actions'>

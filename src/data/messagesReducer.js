@@ -3,11 +3,10 @@ const SEND_MESSAGE = 'SEND-MESSAGE';
 
 let initialState = {
     Messages: [
-        {id:1, message:'Только не затягивай с этим вопросом', time:'23:30', dilivered:true },
-        {id:2, message:'Есть к тебе серьёзный разговор', time:'23:31',  dilivered:true },
-        {id:3, message:'Да, я думаю так лучше будет', time:'23:32', dilivered:true },
-        {id:4, message:'Ты серьёзно?', time:'23:40',  dilivered:false},
-        {id:5, message:'Может быть',time:'23:42',  dilivered:false},
+        {id:1, message:'Только не затягивай с этим вопросом', time:'22:40', dilivered:true },
+        {id:2, message:'Отлично!', time:'23:11', dilivered:true },
+        {id:3, message:'Ты серьёзно?', time:'23:40',  dilivered:false},
+        {id:4, message:'Может быть',time:'23:42',  dilivered:false},
     ],
     newMessageBody:'',
 }
