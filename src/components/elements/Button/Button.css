@@ -1,0 +1,21 @@
+button {
+    min-width: 300px;
+    min-height: 52px;
+
+    font-family: 'Exo 2';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+    background: linear-gradient(350deg, #0066FF 0%, #31B5FF 100%);
+
+    border: 0;
+    border-radius: 12px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: #31B5FF;
+}

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -5,7 +7,51 @@ body {
   background: #313649;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  font-family: 'Exo 2';
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+
+  color: #FFFFFF;
+}
+
+h2 {
+  font-family: 'Exo 2';
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #BBBBBB;
+}
+
+label h2 {
+  line-height: 8px;
+}
+
+h3 {
+  font-family: 'Exo 2';
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+
+  color: #FFFFFF;
+}
+
+p {
+  font-family: 'Roboto';
+  font-size: 13px;
+  line-height: 15px;
+
+  color: #BBBBBB;
+}
+
+a {
+  text-decoration: none;
+}
+
+.MainContainer {
+  display: grid;
+  justify-items: center;
+  margin-top: 70px;
 }

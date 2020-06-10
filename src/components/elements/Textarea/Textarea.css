@@ -1,0 +1,15 @@
+textarea {
+  background: #292D39;
+  color: #FFFFFF;
+
+  border: 1px solid #BBBBBB;
+  box-sizing: border-box;
+  border-radius: 12px;
+
+  min-width: 320px;
+  min-height: 40px;
+
+  font-family: 'Roboto';
+  resize: none;
+  padding: 8px;
+}

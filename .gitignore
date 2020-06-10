@@ -19,8 +19,5 @@
 .env.production.local
 
 npm-debug.log*
-
-# firebase
-.firebaserc
-firebase.json
-.firebase/hosting.YnVpbGQ.cache
+yarn-debug.log*
+yarn-error.log*

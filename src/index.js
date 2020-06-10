@@ -1,26 +1,31 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './app/App';
+import Router from './router';
 import * as serviceWorker from './serviceWorker';
+import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux'
-import store from './data/reduxStore'
+import store from './logic/store'
 
 let rerenderEntireTree = (state) => {
-    ReactDOM.render(
-      <React.StrictMode>
-        <Provider store={store} >
-          <App state={state} store={store} dispatch={store.dispatch.bind(store)} />
-          </Provider >
-      </React.StrictMode>, document.getElementById('root')
-    );
+ReactDOM.render(
+  <BrowserRouter>
+    <React.StrictMode>
+      <Provider store={store}>
+        <Router state={state} dispatch={store.dispatch.bind(store)}/>
+      </Provider>
+    </React.StrictMode>
+  </BrowserRouter>,
+  document.getElementById('root')
+);
 }
 
 rerenderEntireTree(store.getState());
 
 store.subscribe( () => {
-      let state = store.getState();
-      rerenderEntireTree(state); 
+  let state = store.getState();
+  rerenderEntireTree(state); 
 });
 
-serviceWorker.register();
+
+serviceWorker.unregister();

@@ -1,0 +1,7 @@
+.itemBtn {
+    display: flex;
+  }
+  
+  .itemBtn img {
+    margin-right: 20px;
+  }

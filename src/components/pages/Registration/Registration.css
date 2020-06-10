@@ -1,0 +1,39 @@
+.Registration {
+    display: grid;
+    justify-content: center;
+    height: 100vh;
+}
+
+.Registration .Logo {
+    align-self: flex-start;
+    justify-self: center;
+    margin-top: 80px;
+}
+
+.Registration .Actions {
+    align-self: flex-end;
+    margin-bottom: 50px;
+}
+
+.Registration button {
+    margin-left: 10px;
+}
+
+.Registration .Linkbtn {
+    text-align: center;
+    margin-top: 36px;
+}
+
+.regLogo {
+    padding-left: 94px;
+}
+
+.Registration .presentText {
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 48px;
+
+    text-align: center;
+    color: #BBBBBB;
+}

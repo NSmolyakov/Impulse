@@ -1,0 +1,24 @@
+.DialogWrapper {
+    display: flex;
+    align-items: flex-end;
+    height: 90vh;
+}
+
+.Dialog {
+    margin-bottom: 52px;
+}
+
+.sendMessage {
+    display: flex;
+    margin-top: 4px;
+}
+
+.sendMessage img {
+    padding: 18px 0 0 8px;
+}
+
+.EmptyMessager {
+    justify-items: center;
+    display: grid;
+    margin-bottom: 36vh;
+}

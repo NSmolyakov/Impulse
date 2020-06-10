@@ -1,0 +1,30 @@
+.Account {
+    width: 320px;
+    height: 64px;
+    position: relative;
+    margin: 16px 0 32px 0;
+}
+
+.Account .UserPhoto {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Account .UserName {
+    position: absolute;
+    top: 0;
+    left: 80px;
+    line-height: 0px;
+}
+
+.Account .Status {
+    position: absolute;
+    top: 20px;
+    left: 80px;
+
+    font-size: 14px;
+    line-height: 16px;
+
+    opacity: 0.5;
+}
