@@ -24,8 +24,8 @@ const Registration = () => {
       </form>
 
       <div className='Actions'>
-        <Button text='Вход' link='/messages' />
-        <Linkbtn text='Регистрация' link='/login' />
+        <Button text='Регистрация' link='/messages' />
+        <Linkbtn text='Вход' link='/login' />
       </div>
 
     </div>

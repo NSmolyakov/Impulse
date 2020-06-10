@@ -28,4 +28,4 @@ store.subscribe( () => {
 });
 
 
-serviceWorker.unregister();
+serviceWorker.register();
