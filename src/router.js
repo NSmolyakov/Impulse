@@ -25,7 +25,7 @@ const Router = (props) => {
 
             <Route exact path='/settings' component={Settings} /> 
 
-            <Route exact path='/dialog'> 
+            <Route path='/dialog'> 
                 <Dialog props={props.state.MessagesData} dispatch={props.dispatch} />
             </Route> 
 

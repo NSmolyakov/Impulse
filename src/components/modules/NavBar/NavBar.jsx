@@ -25,22 +25,22 @@ class NavBar extends React.Component {
                     {
                         this.state.currentLink === 'http://localhost:3000/messages' 
                         || this.state.currentLink === 'https://mount-91ad2.web.app/messages'
-                            ? <Link to='messages'><img src={messagesActive} alt='messagesActive' /></Link>
-                            : <Link to='messages'><img src={Messages} alt='messages' /></Link>
+                            ? <Link to='/messages'><img src={messagesActive} alt='messagesActive' /></Link>
+                            : <Link to='/messages'><img src={Messages} alt='messages' /></Link>
                     }
 
                     {
                         this.state.currentLink === 'http://localhost:3000/contacts'
                         || this.state.currentLink === 'https://mount-91ad2.web.app/contacts'
-                            ? <Link to='contacts'><img src={contactsActive} alt='contactsActive' /></Link>
-                            : <Link to='contacts'><img src={Contacts} alt='contacts' /></Link>
+                            ? <Link to='/contacts'><img src={contactsActive} alt='contactsActive' /></Link>
+                            : <Link to='/contacts'><img src={Contacts} alt='contacts' /></Link>
                     }
 
                     {
                         this.state.currentLink === 'http://localhost:3000/settings'
                         || this.state.currentLink === 'https://mount-91ad2.web.app/settings'
-                            ? <Link to='settings'><img src={settingsActive} alt='settingsActive' /></Link>
-                            : <Link to='settings'><img src={Settings} alt='settings' /></Link>
+                            ? <Link to='/settings'><img src={settingsActive} alt='settingsActive' /></Link>
+                            : <Link to='/settings'><img src={Settings} alt='settings' /></Link>
                     }
                     
                 </div>

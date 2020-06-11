@@ -12,7 +12,6 @@ import Send from '../../../assets/img/send.svg'
 import './Dialog.css'
 
 const Dialog = (props) => {
-    debugger
     let Messages = props.props.Messages.map(d => <Message message={d.message} time={d.time} dilivered={d.dilivered} />)
     let newMessageBody = props.props.newMessageBody;
 

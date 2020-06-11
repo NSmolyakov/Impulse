@@ -9,7 +9,6 @@ import AddContacts from '../../../assets/img/addContacts.svg'
 import Imagebutton from '../../elements/Imagebutton/Imagebutton';
 
 const Contacts = (props) => {
-    debugger;
     let Contacts = props.props.Users.map(d => <Contact name={d.name} />);
     return(
         <div className='MainContainer'>

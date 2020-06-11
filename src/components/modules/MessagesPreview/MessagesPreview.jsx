@@ -4,10 +4,10 @@ import './MessagesPreview.css'
 import { Link } from 'react-router-dom';
 
 function MessagesPreview(props) {
-  // let id = props.id
-  // let URL = 'messager/' + id
+  let id = props.id
+  let URL = '/dialog/' + id
   return (
-    <Link to='/dialog'>
+    <Link to={URL} >
       <div className='MessagesPreview'>
          <img alt='UserPhoto' src={noPhoto} />
          <h3 className='UserName'>{props.name} </h3>
