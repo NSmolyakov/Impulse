@@ -23,7 +23,9 @@ const Router = (props) => {
                 <Contacts props={props.state.UsersData} />
             </Route> 
 
-            <Route exact path='/settings' component={Settings} /> 
+            <Route path='/settings'> 
+                <Settings props={props.state.AccountData} />
+            </Route> 
 
             <Route path='/dialog'> 
                 <Dialog props={props.state.MessagesData} dispatch={props.dispatch} />

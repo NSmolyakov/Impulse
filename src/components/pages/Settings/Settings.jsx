@@ -10,12 +10,16 @@ import ChangePassword from '../../../assets/img/changePassword.svg'
 import Exit from '../../../assets/img/exit.svg'
 
 
-const Settings = () => {
+const Settings = (props) => {
+    debugger;
     return(
         <div className='MainContainer'>
             <TopNav header='Настройки'/> 
                 <div className='Settings'>
-                    <AccountData name='Root' status='Onine' />
+                    <AccountData 
+                            name={props.props.Accounts[0].name}
+                            status={props.props.Accounts[0].status} />
+                            
                     <Imagebutton src={Edit} alt='Edit' text='Редактировать профиль' />
                     <Imagebutton src={ChangePassword} alt='ChangePassword' text='Изменить пароль' />
                     <Imagebutton src={Exit} alt='Exit' text='Выход' link='/' />

@@ -8,7 +8,7 @@ import './Contact.css'
 
 const Contact = (props) =>{
   return (
-    <Link to='/'>
+    <Link to='/dialog'>
       <div className='Contact'>
         <img src={noPhoto} alt={props.alt} />
         <p>{props.name}</p>
