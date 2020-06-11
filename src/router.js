@@ -7,6 +7,8 @@ import Messages from './components/pages/Messages/Messages'
 import Contacts from './components/pages/Contacts/Contacts'
 import Settings from './components/pages/Settings/Settings'
 import Dialog from './components/pages/Dialog/Dialog'
+import Account from './components/pages/Account/Account'
+import Password from './components/pages/Password/Password'
 
 const Router = (props) => {
     return(
@@ -29,6 +31,14 @@ const Router = (props) => {
 
             <Route path='/dialog'> 
                 <Dialog props={props.state.MessagesData} dispatch={props.dispatch} />
+            </Route> 
+
+            <Route path='/account'> 
+                <Account />
+            </Route> 
+
+            <Route path='/password_change'> 
+                <Password />
             </Route> 
 
         </Switch>
