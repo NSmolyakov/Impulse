@@ -53,5 +53,5 @@ a {
 .MainContainer {
   display: grid;
   justify-items: center;
-  margin-top: 70px;
+  margin: 70px 0 70px 0;
 }

@@ -11,7 +11,6 @@ import Exit from '../../../assets/img/exit.svg'
 
 
 const Settings = (props) => {
-    debugger;
     return(
         <div className='MainContainer'>
             <TopNav header='Настройки'/> 
@@ -19,7 +18,7 @@ const Settings = (props) => {
                     <AccountData 
                             name={props.props.Accounts[0].name}
                             status={props.props.Accounts[0].status} />
-                            
+
                     <Imagebutton src={Edit} alt='Edit' text='Редактировать профиль' />
                     <Imagebutton src={ChangePassword} alt='ChangePassword' text='Изменить пароль' />
                     <Imagebutton src={Exit} alt='Exit' text='Выход' link='/' />
