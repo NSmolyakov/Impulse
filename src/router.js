@@ -9,6 +9,7 @@ import Settings from './components/pages/Settings/Settings'
 import Dialog from './components/pages/Dialog/Dialog'
 import Account from './components/pages/Account/Account'
 import Password from './components/pages/Password/Password'
+import ContactImport from './components/pages/ContactImport/ContactImport'
 
 const Router = (props) => {
     return(
@@ -36,9 +37,13 @@ const Router = (props) => {
             <Route path='/account'> 
                 <Account />
             </Route> 
-
+         
             <Route path='/password_change'> 
                 <Password />
+            </Route> 
+
+            <Route path='/contacts_import'> 
+                <ContactImport />
             </Route> 
 
         </Switch>

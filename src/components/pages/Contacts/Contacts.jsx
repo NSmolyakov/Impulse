@@ -15,7 +15,7 @@ const Contacts = (props) => {
             <TopNav header='Контакты'/>
 
             <div className='Contacts'>
-                <Imagebutton src={AddContacts} alt='Import' text='Импортировать контакты' />
+                <Imagebutton src={AddContacts} alt='Import' text='Импортировать контакты' link='contacts_import' />
                 <div className='ContactsWrapper'>
                     {Contacts}
                 </div>
