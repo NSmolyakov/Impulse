@@ -1,0 +1,9 @@
+.Badge {
+    width: 24px;
+    height: 20px;
+    background: linear-gradient(320deg, #0066FF 25.74%, #31B5FF 74.26%);
+    border-radius: 16px;
+    color:#fff;
+    text-align: center;
+    padding-top: 4px;
+}

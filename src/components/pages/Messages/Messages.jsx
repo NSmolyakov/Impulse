@@ -6,7 +6,7 @@ import NavBar from '../../modules/NavBar/NavBar'
 
 
 const Messages =(props) => {
-    let MessagesPreviews = props.props.Users.map(d => <MessagesPreview name={d.name} lastMessage={d.lastMessage} time={d.time} id={d.id} />);
+    let MessagesPreviews = props.props.Users.map(d => <MessagesPreview name={d.name} lastMessage={d.lastMessage} time={d.time} unread={d.unread} id={d.id} />);
     return (
         <div className='MainContainer'>
         <TopNav header='Сообщения'/>

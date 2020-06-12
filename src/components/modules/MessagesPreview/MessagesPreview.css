@@ -22,10 +22,17 @@
     position: absolute;
     top: 20px;
     left: 80px;
+    max-width: 210px;
 }
 
 .MessagesPreview .Time {
     position: absolute;
     top: 0;
     right: 12px;
+}
+
+.Badge{
+    position: absolute;
+    top: 8px;
+    right: 68px;
 }
