@@ -1,3 +1,7 @@
+.MessageWrapper{
+    display: flex;
+}
+
 .Message {
     background: #292D39;
     border-radius: 14px 14px 14px 0;
@@ -5,9 +9,15 @@
     animation: blockStart 1 .75s;
     display: inline-block;
 }
+
+.MessageWrapperIn{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
 .MessageIn{
-    margin-left: 190px;
     border-radius: 14px 14px 0 14px;
+    text-align: end;
 }
 
 .Message .Text {

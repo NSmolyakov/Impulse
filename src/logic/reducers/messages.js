@@ -3,10 +3,11 @@ const SEND_MESSAGE = 'SEND-MESSAGE';
 
 let initialState = {
     Messages: [
-        {id:1, message:'Только не затягивай с этим вопросом', time:'22:40', dilivered:true },
-        {id:2, message:'Отлично!', time:'23:11', dilivered:true },
-        {id:3, message:'Ты серьёзно?', time:'23:40',  dilivered:false},
-        {id:4, message:'Может быть',time:'23:42',  dilivered:false},
+        {id:1, message:'Только не затягивай с этим вопросом', time:'22:40', sent:true },
+        {id:2, message:'Отлично!', time:'23:11', sent:true },
+        {id:3, message:'Ты серьёзно?', time:'23:40', dilivered:true},
+        {id:4, message:'Что ты имеешь ввиду?', time:'23:40', dilivered:true},
+        {id:5, message:'Потом обсудим',time:'23:42',  sent:true},
     ],
     newMessageBody:'',
 }
@@ -24,7 +25,7 @@ export const messagesReducer = (state = initialState, action) => {
             state.Messages.push( {  id:6, 
                                     message: body, 
                                     time:new Date().toLocaleTimeString().slice(0,-3), 
-                                    dilivered:false} ); 
+                                    dilivered:true} ); 
             return state
         default:
             return state;
