@@ -1,5 +1,5 @@
 .MessagesPreview {
-    width: 382px;
+    width: 370px;
     height: 64px;
     position: relative;
     margin-bottom: 16px;
@@ -22,17 +22,18 @@
     position: absolute;
     top: 20px;
     left: 80px;
-    max-width: 210px;
+    max-width: 200px;
 }
 
 .MessagesPreview .Time {
     position: absolute;
     top: 0;
     right: 12px;
+    line-height: 0;
 }
 
-.Badge{
+.Badge {
     position: absolute;
-    top: 8px;
-    right: 64px;
+    top: 16px;
+    right: 16px;
 }

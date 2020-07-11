@@ -54,4 +54,5 @@ a {
   display: grid;
   justify-items: center;
   margin: 70px 0 52px 0;
+  padding: 0 12px 0 12px;
 }
