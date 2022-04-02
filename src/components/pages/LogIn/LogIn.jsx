@@ -12,7 +12,7 @@ const LogIn = () => {
         <div className='LogIn'>
             <div className='Logo'>
                 <img src={logo} alt='Mount' className='startLogo' />
-                <h1 className='presentText'>Mount</h1>
+                <h1 className='presentText'>Impulse</h1>
             </div>
             <div className='LoginData'>
                 <Input type='text' placeholder='Логин' label='Логин' />
