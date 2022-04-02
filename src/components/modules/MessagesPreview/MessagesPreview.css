@@ -27,12 +27,12 @@
 
 .MessagesPreview .Time {
     position: absolute;
-    top: 0;
+    top: 4px;
     right: 12px;
     line-height: 0;
 }
 
-.Badge {
+.MessagesPreview .Badge {
     position: absolute;
     top: 16px;
     right: 16px;

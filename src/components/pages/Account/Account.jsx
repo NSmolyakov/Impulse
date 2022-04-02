@@ -6,17 +6,15 @@ import Linkbtn from '../../elements/Linkbtn/Linkbtn';
 
 import TopNav from '../../modules/TopNav/TopNav';
 import NavBar from '../../modules/NavBar/NavBar';
-import Badge from '../../elements/Badge/Badge';
 
 
-const Account= (props) => {
+const Account= () => {
     return( <div className='MainContainer'>
             <TopNav header='Редактировать профиль'/> 
                 <div className='Settings'>
                     <Input type='text' placeholder='Введите новое имя пользователя' label='Имя пользователя' />
                     <Button text='Сохранить изменения' link='/settings'/>
                     <Linkbtn text='Вернуться без сохранения' link='/settings' />
-                    <Badge number='4' />
                 </div>
             <NavBar />
         </div>
