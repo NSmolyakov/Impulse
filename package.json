@@ -1,6 +1,6 @@
 {
-  "name": "mount",
-  "version": "0.0.1",
+  "name": "impulse",
+  "version": "0.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
